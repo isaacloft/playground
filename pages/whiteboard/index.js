@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import StyledContainer from '../../libs/ui-components/styledContainer';
 import fetch from 'node-fetch';
 
 const Button = styled.button`
@@ -16,10 +15,9 @@ const Button = styled.button`
 
 const publicPage = (props) => {
   return (
-    <StyledContainer>
+    <>
       <h1>whiteboard</h1>
-      <Button>Click me</Button>
-    </StyledContainer>
+    </>
   );
 };
 
